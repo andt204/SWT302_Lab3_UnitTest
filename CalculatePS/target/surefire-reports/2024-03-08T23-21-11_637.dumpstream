@@ -1,0 +1,4 @@
+# Created at 2024-03-08T23:21:11.978
+Boot Manifest-JAR contains absolute paths in classpath 'E:\FPTU\Sem_5\SWT301\CalculatePS\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

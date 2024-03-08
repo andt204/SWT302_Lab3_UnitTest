@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TriangleTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.045 s <<< FAILURE! - in TriangleTest
+TriangleTest.testInvalidInfinity  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0.0> but was: <NaN>
+	at TriangleTest.testInvalidInfinity(TriangleTest.java:64)
+
+TriangleTest.testInvalidLargeSide  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at TriangleTest.testInvalidLargeSide(TriangleTest.java:52)
+
+TriangleTest.testInvalidZeroSide  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at TriangleTest.testInvalidZeroSide(TriangleTest.java:47)
+
+TriangleTest.testInvalidNegativeSide  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at TriangleTest.testInvalidNegativeSide(TriangleTest.java:42)
+
+TriangleTest.testInvalidNonTriangle  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0.0> but was: <NaN>
+	at TriangleTest.testInvalidNonTriangle(TriangleTest.java:37)
+
+TriangleTest.testInvalidNaN  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0.0> but was: <NaN>
+	at TriangleTest.testInvalidNaN(TriangleTest.java:58)
+
